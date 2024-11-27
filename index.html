@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fun & Comical - FouzyMusic</title>
+    <title>Fouzy Music - Home</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,82 +11,57 @@
             margin: 0;
             padding: 0;
         }
-        .album-container {
-            text-align: center;
-            margin: 50px auto;
-            max-width: 800px;
-            background-color: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
+        header {
+            background-color: #00796b;
+            color: white;
             padding: 20px;
+            text-align: center;
         }
-        .album-cover {
-            width: 100%;
-            border-radius: 10px;
-        }
-        .album-title {
-            font-size: 24px;
-            margin: 20px 0;
-            color: #333;
-        }
-        .track-list {
-            list-style: none;
+        nav ul {
+            list-style-type: none;
             padding: 0;
         }
-        .track-list li {
-            margin: 15px 0;
-            padding: 10px;
-            background-color: #e0f7fa;
-            border-radius: 5px;
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
         }
-        .track-title {
-            font-size: 18px;
-            font-weight: bold;
-        }
-        .track-buttons {
-            margin-top: 10px;
-        }
-        .track-buttons a {
+        nav ul li a {
+            color: white;
             text-decoration: none;
-            margin: 0 10px;
-            color: #fff;
-            background-color: #00796b;
-            padding: 8px 16px;
-            border-radius: 5px;
-            font-size: 14px;
+            font-size: 18px;
         }
-        .track-buttons a:hover {
-            background-color: #004d40;
+        .main-content {
+            text-align: center;
+            padding: 50px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #00796b;
+            color: white;
+            margin-top: 50px;
         }
     </style>
 </head>
 <body>
-    <div class="album-container">
-        <img src="Album-cover.JPG" alt="Fun & Comical Album Cover" class="album-cover">
-        <h1 class="album-title">Fun & Comical</h1>
-        <ul class="track-list">
-            <li>
-                <span class="track-title">Comic Clown</span>
-                <div class="track-buttons">
-                    <a href="Comic Clown.mp3" download>Download</a>
-                    <a href="Comic Clown.mp3" target="_blank">Play</a>
-                </div>
-            </li>
-            <li>
-                <span class="track-title">Carnival Comedy</span>
-                <div class="track-buttons">
-                    <a href="Carnival Comedy.mp3" download>Download</a>
-                    <a href="Carnival Comedy.mp3" target="_blank">Play</a>
-                </div>
-            </li>
-            <li>
-                <span class="track-title">Wacky Run</span>
-                <div class="track-buttons">
-                    <a href="Wacky Run.mp3" download>Download</a>
-                    <a href="Wacky Run.mp3" target="_blank">Play</a>
-                </div>
-            </li>
-        </ul>
+    <header>
+        <img src="logo.png" alt="FouzyMusic Logo" style="width: 150px;">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="albums.html">Albums</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <h1>Welcome to FouzyMusic!</h1>
+        <p>Explore our fun and comical music albums!</p>
     </div>
+
+    <footer>
+        <p>&copy; 2024 FouzyMusic. All rights reserved.</p>
+    </footer>
 </body>
 </html>
